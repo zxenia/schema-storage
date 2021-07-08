@@ -1,16 +1,8 @@
 {
-  "_type": "document",
-  "_meta": {
-    "url": "http://localhost:8000/api/schema?format=corejson",
+  "openapi": "3.0.2",
+  "info": {
     "title": "Metadata Service API",
     "description": "Metadata Service provides a phenotypic description of an Individual in the context of biomedical research."
-  },
-  "": {
-    "list": {
-      "_type": "link",
-      "url": "/",
-      "action": "get"
-    }
   },
   "api": {
     "biosamples": {
